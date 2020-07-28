@@ -1,0 +1,123 @@
+html {
+  background-color: green;
+}
+
+body {
+  width: 972px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside {
+  width: 34%;
+  float: left;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  background-color: rgb(243, 232, 232);
+  position: relative;
+}
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 88%;
+  color: burlywood;
+}
+header {
+  padding-top: 40px;
+
+  color: rgb(3, 97, 50);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+.content {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+  font-size: 120%;
+}
+
+.main {
+  border-top: 3px solid rgb(243, 232, 232);
+  border-bottom: 3px solid rgb(243, 232, 232);
+}
+
+/* .fix {
+  clear: both;
+} */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  border: 3px solid burlywood;
+  padding: 10px 20px;
+  display: block;
+  margin-top: 20px;
+  color: rgb(3, 97, 50);
+}
+
+.main-nav a:hover {
+  background-color: rgb(243, 232, 232);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-banner {
+  position: relative;
+  top: 0;
+  left: 80px;
+  z-index: 1;
+}
+.image-banner img {
+  display: block;
+}
+
+.banner-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 25px;
+}
+
+.banner-description p {
+  color: white;
+}
